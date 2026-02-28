@@ -15,14 +15,14 @@ const projects = [
     description: "Redizajn postojećeg portfolia kako bi bio responzivan i čist.",
     tech: ["HTML", "CSS", "JavaScript"],
     image: "src/Screenshot 2026-02-24 130332.png",
-    demoUrl: "https://portfolio-redesign-demo.com",
+    demoUrl: "https://mixxa02.github.io/",
   },
   {
     title: "Mini eCommerce Page",
     description: "Fiktivna online prodavnica sa fokusom na UX i responzivni dizajn.",
     tech: ["HTML", "CSS", "JavaScript"],
     image: "/src/Screenshot 2026-02-28 104225.png",
-    demoUrl: "https://mini-ecommerce-demo.com",
+    demoUrl: "https://mixxa02.github.io/aurel.github.io/",
   },
 ];
 
