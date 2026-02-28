@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 
 const navLinks = [
@@ -31,7 +32,7 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
-          <img className="rounded-full object-cover" src="src\191728185_3015650402091730_2856723725346818668_n.jpg" alt="Description of the image" width="30" height="30"></img>
+          <img className="rounded-full object-cover" src={profileImage} alt="Description of the image" width="30" height="30"></img>
         
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">

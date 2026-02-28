@@ -1,5 +1,8 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { ExternalLink } from "lucide-react";
+import proj1Image from "@/assets/proj1.png";
+import proj2Image from "@/assets/proj2.png";
+import proj3Image from "@/assets/proj3.png";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -7,21 +10,21 @@ const projects = [
     title: "Crafted Mornings",
     description: "Jednostavan, ali interaktivan coffee shop sa mikroanimacijama.",
     tech: ["Webflow"],
-    image: "/src/Screenshot 2026-02-24 125807.png",
+    image: "src={proj1Image}",
     demoUrl: "https://crafted-mornings.webflow.io",
   },
   {
     title: "Portfolio Redesign",
     description: "Redizajn postojećeg portfolia kako bi bio responzivan i čist.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "src/Screenshot 2026-02-24 130332.png",
+    image: "src={proj2Image}",
     demoUrl: "https://mixxa02.github.io/",
   },
   {
     title: "Mini eCommerce Page",
     description: "Fiktivna online prodavnica sa fokusom na UX i responzivni dizajn.",
     tech: ["HTML", "CSS", "JavaScript"],
-    image: "/src/Screenshot 2026-02-28 104225.png",
+    image: "src={proj3Image}",
     demoUrl: "https://mixxa02.github.io/aurel.github.io/",
   },
 ];

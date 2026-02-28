@@ -1,4 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import profileImage from "@/assets/profile.jpg";
 import { Code, Palette, Smartphone, Sparkles } from "lucide-react";
 
 const skills = ["HTML5", "CSS3", "JavaScript", "Webflow", "Figma", "Responsive Design", "UX/UI osnove"];
@@ -51,7 +52,7 @@ export default function About() {
             }`}
           >
             <div className="aspect-square rounded-2xl border border-border bg-card flex items-center justify-center">
-              <img className="rounded-xl object-cover" src="src\191728185_3015650402091730_2856723725346818668_n.jpg" alt="Description of the image"></img>
+              <img className="rounded-xl object-cover" src={profileImage} alt="Description of the image"></img>
             </div>
           </div>
         </div>
